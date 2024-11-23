@@ -17,7 +17,7 @@ const FunctionCard: React.FC<FunctionCardProps> = ({
   onOutputChange,
 }) => {
   const [currentEquation, setCurrentEquation] = useState(equation);
-  // const [output, setOutput] = useState<number | string>("");
+  const [_output, setOutput] = useState<number | string>("");
 
 
   useEffect(() => {
